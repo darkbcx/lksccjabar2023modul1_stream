@@ -1,0 +1,20 @@
+{
+  "name": "lambda-trigger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "bash deploy.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.1.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@opensearch-project/opensearch": "^1.2.0",
+    "aws-sdk": "^2.1373.0"
+  }
+}
