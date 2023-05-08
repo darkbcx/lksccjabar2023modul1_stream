@@ -1,4 +1,3 @@
-npm install
 rm -rf ./dist
 tsc
 rm files.zip
